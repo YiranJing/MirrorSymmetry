@@ -6,7 +6,7 @@ import numpy as np
 import glob
 
 # create SIFT object ((a feature detection algorithm)) 
-sift = cv2.xfeatures2d.SIFT_create()
+sift = cv2.SIFT_create()
 # create BFMatcher object
 bf = cv2.BFMatcher()
 
